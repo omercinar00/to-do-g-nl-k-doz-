@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    border-bottom: 2px solid red;
+     z-index: 1;
+}
+
+.card-img{
+    height: 100%;
+    width: 100%;
+}
+.check > label {
+    text-decoration: line-through;
+    
+}
+#backgroundVideo{
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.card{
+    z-index: 1;
+}
+.container{
+    padding-top: 10rem;
+}
