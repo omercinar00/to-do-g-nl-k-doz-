@@ -12,7 +12,6 @@ card.addEventListener("click",(e)=>{
 
     
        if (e.target.parentElement.classList.contains("check")) {
-        console.log(e.target.childElement);
         e.target.parentElement.classList.remove("check")
         e.target.classList.remove("fa-solid", "fa-check")
         e.target.classList.add("fa-regular", "fa-square")
